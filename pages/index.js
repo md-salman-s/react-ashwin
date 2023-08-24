@@ -87,7 +87,11 @@ const Home = () => {
             id="modal-modal-title"
             variant="h6"
             component="h6"
-            style={{ marginBottom: "4px", fontFamily: "Nunito Sans" }}
+            style={{
+              marginBottom: "4px",
+              fontFamily: "Nunito Sans",
+              color: "#101828",
+            }}
           >
             <b>Welcome Back. Here&apos;s What&apos;s New </b>
           </Typography>
@@ -110,6 +114,7 @@ const Home = () => {
                 fontSize: "14px",
                 margin: "0",
                 fontFamily: "Nunito Sans",
+                color: "#475467",
               }}
             >
               {stepDescription}
@@ -190,7 +195,11 @@ const Home = () => {
             id="modal-modal-title"
             variant="h6"
             component="h6"
-            style={{ marginBottom: "4px", fontFamily: "Nunito Sans" }}
+            style={{
+              marginBottom: "4px",
+              fontFamily: "Nunito Sans",
+              color: "#101828",
+            }}
           >
             <b>Welcome Back. Here&apos;s What&apos;s New</b>
           </Typography>
