@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Box, Grid, Modal, Typography, Button } from "@mui/material";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 import MobileStepper from "@mui/material/MobileStepper";
+
 const style = {
   position: "absolute",
   top: "50%",
@@ -86,7 +87,7 @@ const Home = () => {
             id="modal-modal-title"
             variant="h6"
             component="h6"
-            style={{ marginBottom: "4px" }}
+            style={{ marginBottom: "4px", fontFamily: "Nunito Sans" }}
           >
             <b>Welcome Back. Here&apos;s What&apos;s New </b>
           </Typography>
@@ -98,11 +99,21 @@ const Home = () => {
               style={{
                 fontSize: "14px",
                 fontWeight: "bold",
+                fontFamily: "Nunito Sans",
+                color: "#475467",
               }}
             >
               {stepTitle}
             </Typography>
-            <p style={{ fontSize: "14px", margin: "0" }}>{stepDescription}</p>
+            <p
+              style={{
+                fontSize: "14px",
+                margin: "0",
+                fontFamily: "Nunito Sans",
+              }}
+            >
+              {stepDescription}
+            </p>
           </div>
 
           <Grid container spacing={1} style={{ alignContent: "center" }}>
@@ -136,6 +147,7 @@ const Home = () => {
                   color: "#242424",
                   border: "1px solid #D0D5DD",
                   textTransform: "capitalize",
+                  fontFamily: "Nunito Sans",
                 }}
               >
                 Skip
@@ -149,6 +161,7 @@ const Home = () => {
                   color: "#fff !important",
                   backgroundColor: "#242424",
                   textTransform: "capitalize",
+                  fontFamily: "Nunito Sans",
                 }}
                 onClick={handleNext}
                 disabled={activeStep === featureCount - 1}
@@ -172,12 +185,12 @@ const Home = () => {
         aria-describedby="modal-modal-description"
         style={{ overflow: "scroll" }}
       >
-        <Box sx={style}>
+        <Box sx={style} style={{ outline: "none" }}>
           <Typography
             id="modal-modal-title"
             variant="h6"
             component="h6"
-            style={{ marginBottom: "4px" }}
+            style={{ marginBottom: "4px", fontFamily: "Nunito Sans" }}
           >
             <b>Welcome Back. Here&apos;s What&apos;s New</b>
           </Typography>
@@ -194,6 +207,8 @@ const Home = () => {
                   style={{
                     fontSize: "14px",
                     fontWeight: "bold",
+                    fontFamily: "Nunito Sans",
+                    color: "#475467",
                   }}
                 >
                   <FiberManualRecordIcon
@@ -201,7 +216,14 @@ const Home = () => {
                   />
                   {feature.title}
                 </Typography>
-                <p style={{ fontSize: "14px", margin: "0px 0 0 13px" }}>
+                <p
+                  style={{
+                    fontSize: "14px",
+                    margin: "0px 0 0 13px",
+                    fontFamily: "Nunito Sans",
+                    color: "#475467",
+                  }}
+                >
                   {feature.description}
                 </p>
               </div>
@@ -217,6 +239,7 @@ const Home = () => {
                   color: "#242424",
                   border: "1px solid #D0D5DD",
                   textTransform: "capitalize",
+                  fontFamily: "Nunito Sans",
                 }}
               >
                 Close
@@ -235,6 +258,7 @@ const Home = () => {
                   width: "100%",
                   backgroundColor: "#242424",
                   textTransform: "capitalize",
+                  fontFamily: "Nunito Sans",
                 }}
               >
                 Let&apos;s Go
