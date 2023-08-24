@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Feature Heading 1",
+    "description":
+      "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor tincid unt velit eget ultrices. Cras tincid unt, dui ut sagittis finibus, velit massa euismod leo, vitae ultrices odio leo eu purus."
+  },
+  {
+    "id": 2,
+    "title": "Feature Heading 2",
+    "description":
+      "2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor tincid unt velit eget ultrices. Cras tincid unt, dui ut sagittis finibus, velit massa euismod leo, vitae ultrices odio leo eu purus."
+  },
+  {
+    "id": 3,
+    "title": "Feature Heading 3",
+    "description":
+      "3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor tincid unt velit eget ultrices. Cras tincid unt, dui ut sagittis finibus, velit massa euismod leo, vitae ultrices odio leo eu purus."
+  },
+  {
+    "id": 4,
+    "title": "Feature Heading 4",
+    "description":
+      "4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor tincid unt velit eget ultrices. Cras tincid unt, dui ut sagittis finibus, velit massa euismod leo, vitae ultrices odio leo eu purus."
+  },
+  {
+    "id": 5,
+    "title": "Feature Heading 5",
+    "description":
+      "5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor tincid unt velit eget ultrices. Cras tincid unt, dui ut sagittis finibus, velit massa euismod leo, vitae ultrices odio leo eu purus."
+  }
+]
